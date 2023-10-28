@@ -1,7 +1,13 @@
 "use strict";
 
+// Напиши функцію slugify(title), яка приймає заголовок статті, параметр title і повертає slug, створений із цього рядка.
+
+// Значенням параметра title будуть рядки, слова яких розділені лише пробілами.
+// Усі символи slug повинні бути в нижньому регістрі.
+// Усі слова slug повинні бути розділені тире.
+
 function slugify(title) {
-    const titleCheck = 
+  return title.toLowerCase().split(" ").join("-");
 }
 
 console.log("Task 1");
